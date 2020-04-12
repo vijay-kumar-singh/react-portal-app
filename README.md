@@ -3,6 +3,8 @@
 This is a Insurance portal web application app build with ReactJS with Context feature for state management, typescript for static type checking and Styled component - css framework to style application.
 This project also has feature to show current Covid-19 status.
 
+Demo URL : https://vijay-kumar-singh.github.io/react-portal-app/#/
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
