@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import styled from 'styled-components';
 
 interface CardProps {
     color: string;
-    children: JSX.Element;
+    children: ReactElement;
 }
 
 const Container = styled.div`
@@ -21,7 +21,7 @@ const Content = styled.div`
     align-self: center;
 `;
 
-const Card = ({ color = '#ff867c', children }: CardProps): JSX.Element => <Container color={color}>
+const Card = ({ color = '#ff867c', children }: CardProps): ReactElement<any> => <Container color={color}>
             <Content>{children}</Content>
         </Container>
 

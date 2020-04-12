@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, ReactElement } from 'react';
 import { FaHome, FaCar, FaMobile} from 'react-icons/fa';
 import Title from './Title';
 
 interface Service {
-    icon: JSX.Element | string;
+    icon: ReactElement | string;
     title: string;
     info: string;
 }
@@ -34,7 +34,7 @@ export default class Services extends Component<{}, IStateServices> {
         ]
     }
 
-    public render() {
+    render(): ReactElement {
         const { services } = this.state;
         return (
             <section className="services">

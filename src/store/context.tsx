@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, ReactElement } from 'react';
 import { IStateContext, ProductObject } from '../models/models';
 import items from './data';
 
@@ -18,7 +18,7 @@ class ProductsProvider extends Component<{}, IStateContext> {
     }
 
     // Get Data when component mount
-    public componentDidMount() {
+    componentDidMount() {
         let rooms = this.formatData(items);
         let featuredProducts = rooms.filter((room: any) => room.featured === true);
         let maxPrice = Math.max(...rooms.map((item: any) => item.price));
@@ -34,7 +34,7 @@ class ProductsProvider extends Component<{}, IStateContext> {
 
     }
 
-    public render() {
+    render(): ReactElement {
         return (
             <ProductContext.Provider value={{...this.state, getRoom: this.getRoom, handleChange: this.handleChange, handleChecked: this.handleChecked}}>
                 {this.props.children}

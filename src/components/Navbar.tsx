@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, ReactElement } from 'react';
 import styled from 'styled-components';
 import { FaAlignRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -27,7 +27,7 @@ export default class Navbar extends Component<{}, IStateNavbar> {
         isOpen: false,
     }
 
-    public render() {
+    render(): ReactElement {
         const { isOpen } = this.state;
         return (
             <nav className="navbar">

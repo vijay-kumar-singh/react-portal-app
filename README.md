@@ -76,6 +76,7 @@ No Licence. Free to use for personal and commercial purpose.
 ## Notes
 
 * I created this React app using [`create-react-app`](https://github.com/facebookincubator/create-react-app).
+* some part of code refactored based on https://medium.com/@martin_hotell/10-typescript-pro-tips-patterns-with-or-without-react-5799488d6680
 
 ## Screenshots of application
 
