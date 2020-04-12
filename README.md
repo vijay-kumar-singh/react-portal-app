@@ -60,6 +60,7 @@ npm run deploy
 * [ReactJs](https://reactjs.org/) - A JavaScript library for building user interfaces
 * [TypeScript](https://www.typescriptlang.org/) - Strict syntactical superset of JavaScript, adds optional static typing.
 * [Styled-Components](https://styled-components.com/) -Styled Components are one of the new ways to use CSS in modern JavaScript. It is the meant to be a successor of CSS Modules, a way to write CSS that's scoped to a single component, and not leak to any other element in the page.
+![Image description](https://i.imgur.com/L8uHdFy.png)
 * [Jest](https://jestjs.io/) - A JavaScript Testing Framework
 * [Enzyme](https://airbnb.io/projects/enzyme/) - A JavaScript Testing utilities for React
 * [ESlint](https://eslint.org/) - ESLint statically analyzes your code to quickly find problems
