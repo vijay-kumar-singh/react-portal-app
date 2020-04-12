@@ -51,7 +51,7 @@ export default class Navbar extends Component<{}, IStateNavbar> {
         )
     }
 
-    private handleToggle = () => {
+    private handleToggle = (): void => {
         this.setState({ isOpen: !this.state.isOpen });
     }
 }

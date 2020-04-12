@@ -6,7 +6,6 @@
   "dependencies": {
     "@types/enzyme": "^3.10.5",
     "@types/enzyme-adapter-react-16": "^1.0.6",
-    "@types/jest": "24.0.15",
     "@types/node": "12.0.10",
     "@types/react": "16.8.22",
     "@types/react-dom": "16.8.4",
@@ -46,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@types/jest": "^24.0.15",
     "@types/node-sass": "^4.11.0",
     "@types/prop-types": "^15.7.3",
     "@types/react-icons": "^3.0.0",
