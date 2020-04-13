@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://vijay-kumar-singh.github.io/react-portal-app",
   "dependencies": {
+    "@material-ui/core": "^4.9.10",
+    "@material-ui/styles": "^4.9.10",
     "@types/enzyme": "^3.10.5",
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/node": "12.0.10",
