@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import useStats from '../services/useCovidStats';
 import ErrorPage from '../pages/ErrorPage';
+import Card from '@material-ui/core/Card';
 
 const StatGrid = styled.div`
     padding-top: 100px;
